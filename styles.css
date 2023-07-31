@@ -101,6 +101,7 @@
      .swiper {
          width: 50%;
      }
+     
  
      .descrição__titulo {
          font-size: 32px;
@@ -265,7 +266,7 @@
  
  
  }.cabeçalho {
-     background-color:#FFFFFF;
+    background-color: #e2cbcb;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -463,15 +464,12 @@
  
  hr {
      margin: 0;
-     background-color:#FFFFE0;
+    background-color: #e2cbcb;
+
  
  }
  
- .rodapé {
-     background-color:#FFFFE0;
-     padding: 1em;
- }
- 
+
  .lista-rodapé {
      display: none;
  }
@@ -493,14 +491,15 @@
      }
  
      .lista-rodapé__link {
-         background-color:#FFFFE0;
+    background-color: #e2cbcb;
          text-decoration: none;
          margin-left: 0.6em;
      }
  
      .lista-rodapé__titulo {
          font-size: 14px;
-         background-color:#FFFFE0;
+    background-color: #e2cbcb;
+
      }
  
      .rodapé__titulo {
@@ -510,7 +509,7 @@
  
  @media screen and (min-width: 1728px) {
      .lista-rodapé {
-         background-color:#FFFFE0;
+         background-color:#ffffff;
          padding-left: 1em;
      }
  
@@ -518,3 +517,8 @@
          padding: 3em 0;
      }
  }
+ footer {
+    background-color: #e2cbcb;
+    padding: 10px;
+    text-align: center;
+}
